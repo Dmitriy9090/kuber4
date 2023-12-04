@@ -23,3 +23,5 @@
 ![logo](deploy2.png)
 
 ![logo](deploy3.png)
+На последнем скриншоте мы видим, что теперь у нас 0 реплик в первом deploy и 3 реплики во втором deploy, значит обновление прошло успешно и можно первый deploy удалить командой **kubectl delete deployments.apps -n homework multi-deployment**
+![logo](final_deploy.png)
